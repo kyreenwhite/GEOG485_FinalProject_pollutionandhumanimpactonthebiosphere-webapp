@@ -1,3 +1,3 @@
 # GEOG485L_FinalProject
 Julian Holman, Hope Smith, and Kyreen White's final project for GEOG 485L
-This repo is used to store the code for Holman, Smith, and White's final project: "Mapping Human Activity and Pollution's Impact on the Biosphere"
+This repo is used to store the code for Holman, Smith, and White's final project: "Visually Revealing Unseen Pollution"
