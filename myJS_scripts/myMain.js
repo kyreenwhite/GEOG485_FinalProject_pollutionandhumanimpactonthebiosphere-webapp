@@ -61,10 +61,12 @@ window.onload = function () {
     var second = L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
         attribution: 'Map data: &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, <a href="http://viewfinderpanoramas.org">SRTM</a> | Map style: &copy; <a href="https://opentopomap.org">OpenTopoMap</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)'
     });
-    var third = L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}.png',
+    var third = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}.png',
   {
-    maxZoom: 20,
-    attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>'
+    attribution:
+      'Map tiles by <a href="http://stamen.com">Stamen Design</a>, ' +
+      'CC BY 3.0 — Data © <a href="http://openstreetmap.org">OpenStreetMap</a> contributors',
+    subdomains: 'abcd'
   });
 
     var baseMaps = {
